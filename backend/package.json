@@ -1,0 +1,27 @@
+{
+  "name": "user-capturing-app",
+  "version": "1.0.0",
+  "description": "Creating an App that captures users details after submitting, using React, Javascript, Mongo DB and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zithokamvalethu/user-capturing-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zithokamvalethu/user-capturing-app/issues"
+  },
+  "homepage": "https://github.com/zithokamvalethu/user-capturing-app#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "mongodb": "^4.5.0",
+    "mongoose": "6.3.1",
+    "nodemon": "^2.0.16"
+  }
+}
